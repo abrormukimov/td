@@ -11,7 +11,26 @@ h1 {
   text-align: center;
 }
 
+.display-none {
+  display: none !important;
+}
+
+.diplay-block {
+  display: block;
+}
+
+.description {
+  padding: 6px;
+}
+
 #main-box {
+  background: white;
+  width: 500px;
+  border: 1px;
+  margin: 4% auto;
+}
+
+#edit-box {
   background: white;
   width: 500px;
   border: 1px;
@@ -28,7 +47,7 @@ li {
   font-size: smaller;
   list-style-type: none;
   border: 1px solid black;
-  padding: 5px 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
 }
@@ -46,4 +65,21 @@ li {
 
 span {
   margin-left: 5px;
+}
+
+.buttons {
+  font-size: smaller;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0 5px auto;
+}
+
+.buttons button {
+  margin-left: 5px;
+  padding: 1px 8px;
+}
+
+#save-btn {
+  margin-left: auto;
+  padding: 1px 8px;
 }
